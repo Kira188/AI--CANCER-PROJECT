@@ -1,0 +1,12 @@
+body
+{
+    background-image: url("./images/login-background.png");
+    background-size: 1700px 800px;
+}
+.container
+{
+    color: azure;
+    border: 5px white solid;
+    text-align: center;
+    margin-top: 300px;
+}

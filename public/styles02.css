@@ -1,0 +1,138 @@
+body
+{
+    background-image: url("./images/login-background.png");
+    background-size: 1700px 800px;
+}
+input
+{
+    width: 200px;
+}
+::placeholder {
+    color:black;
+    opacity: 0.3;
+    text-align:left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.login
+{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 130px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    font-size: 70px;
+    margin-left: 10px;
+
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: max-content;
+    align-items: center;
+    margin-top: 100px;
+}
+.first-part
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 800px;
+    margin-left: 50px;
+}
+.second-part
+{
+    display: flex;
+    flex-direction: row;
+    width : 500px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 10px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.third-part
+{
+    display: flex;
+    flex-direction: row;
+    width : 500px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.login-image
+{
+    height: 250px;
+    width: 250px;
+    /*border: 5px solid black;*/
+    margin-top: 40px;
+    border: 5px solid white;
+    border-radius: 100px;
+    padding: 10px;
+}
+.username-image
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+.password-image
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-bottom:px;
+    background-color: white;
+}
+#username
+{
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    padding-right: 5px;
+    padding: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+    height:45px ;
+}
+#password
+{
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+    height: 45px;
+}
+.login-button
+{
+    width:max-content;
+    height: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    background-color: white;
+    margin-left: 700px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top : 7px;
+    border-radius: 20%;
+    font-weight: 500;
+    
+}
+button:hover
+{
+    background-color: gray;
+}
+#sb-button {
+    border: 10px white solid;
+    background-color: aliceblue;
+}
