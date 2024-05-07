@@ -9,20 +9,19 @@ span
 body
 {
     background-image: url("./images/background.jpg");
-    background-color: black;
-
+    background-size: 1500px;
+    background-color: pink;
 }
 h1
 {
-    color: whitesmoke;
+    color:rgb(72, 42, 42);
     text-align: center;
     font-size: 100px;
     font-family:fantasy;
     border : 10px;
     border-color  : white;
-    padding : 100px;
-    padding-top : 50px;
-    margin-top: 50px;
+    margin-top: 100px;
+    border : 5px solid black
 }
 .nav-link
 {
@@ -34,14 +33,16 @@ h1
 {
     border-radius: 0;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 500px;
     border : 20px solid black;
+    height : 500px;
 }
 .carousel-two
 {
     border-radius: 0;
-    margin-left: 310px;
+    margin-left : 270px;
     border : 20px solid black;
+    height : 500px;
 }
 .carousel-three
 {
@@ -52,7 +53,7 @@ h1
 }
 #myCarousel
 {
-    background-color:azure;
+    background-color:pink;
     margin-top: 300px;
     margin-bottom: 250px;
     margin-left:50px;
@@ -72,7 +73,7 @@ h1
 }
 .text
 {
-    color : rgb(28, 28, 72);
+    color :rgb(72, 42, 42) ;
     font-size: 30px;
     font-style: italic;
     
@@ -82,13 +83,13 @@ h1
     border : 20px solid rgb(0, 0, 0);
     margin: 50px;
     padding : 50px;
-    background-color: rgb(235, 238, 244);
+    background-color: pink;
     margin-bottom : 200px;
 }
 .btn
 {
     font-size: 30px;
-    background-color: azure;
+    background-color:pink;
     color :black;
 }
 .d-grid
@@ -96,8 +97,10 @@ h1
     margin-bottom: 200px;
 }
 .jss-logo{
-    height:120px;
-    width:180px;
+    height:150px;
+    width:250px;
+    margin-right: 650px;
+    border: 5px solid black;
 }
 #image-file
 {
@@ -108,9 +111,11 @@ h1
     text-align: center;
     margin-left: 140px;
     margin-bottom: 10px;
+    border : 5px solid rgb(72, 42, 42);
 }
 #submit-button{
     margin-left: 95px;
+    border : 5px solid rgb(72, 42, 42);
 }
 .nav
 {
@@ -129,7 +134,7 @@ h1
 }
 .aher-logo
 {
-    height:120px;
-    width:200px;
-    margin-left: 50px;
+    height:150px;
+    width:250px;
+    border: 5px solid black;
 }

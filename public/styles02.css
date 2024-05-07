@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("./images/login-background.png");
+    background-image: url("./images/background.jpg");
     background-size: 1700px 800px;
 }
 input
@@ -16,7 +16,7 @@ input
 }
 .login
 {
-    color: whitesmoke;
+    color: rgb(72, 42, 42);
     text-align: center;
     margin-top: 130px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -50,7 +50,7 @@ input
     flex-direction: row;
     width : 500px;
     margin-left: 10px;
-    background-color: white;
+    background-color: rgb(76, 51, 76); ;
     padding: 10px;
     padding-top: 15px;
     margin-bottom: 10px;
@@ -62,7 +62,7 @@ input
     width : 500px;
     margin-left: 10px;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: rgb(76, 51, 76); 
     padding: 10px;
 }
 
@@ -70,9 +70,8 @@ input
 {
     height: 250px;
     width: 250px;
-    /*border: 5px solid black;*/
+    border: 5px solid black;
     margin-top: 40px;
-    border: 5px solid white;
     border-radius: 100px;
     padding: 10px;
 }
@@ -90,7 +89,6 @@ input
     width: 40px;
     margin-left: 5px;
     margin-bottom:px;
-    background-color: white;
 }
 #username
 {
@@ -119,14 +117,13 @@ input
     height: 50px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    background-color: white;
+    background-color: rgb(76, 51, 76);
     margin-left: 700px;
     padding-left: 30px;
     padding-right:30px;
     padding-top : 7px;
     border-radius: 20%;
     font-weight: 500;
-    
 }
 button:hover
 {
