@@ -1,27 +1,33 @@
+p{
+    background-color: pink;
+    justify-content: center;
+    text-align: center;
+}
 
-span
-{
+span{
     font-size: 40px;
     font-style: italic;
     font-weight: 500;
     color: aliceblue;
 }
-body
-{
+
+body{
     background-image: url("./images/background.jpg");
     background-size: 1500px;
     background-color: pink;
 }
-h1
-{
+
+h1{
     color:rgb(72, 42, 42);
     text-align: center;
     font-size: 100px;
     font-family:fantasy;
+}
+.heading{
     border : 10px;
     border-color  : white;
     margin-top: 100px;
-    border : 5px solid black
+    border : 5px solid black;
 }
 .nav-link
 {
@@ -99,7 +105,6 @@ h1
 .jss-logo{
     height:150px;
     width:250px;
-    margin-right: 650px;
     border: 5px solid black;
 }
 #image-file
@@ -109,12 +114,11 @@ h1
 #image-label
 {
     text-align: center;
-    margin-left: 140px;
     margin-bottom: 10px;
     border : 5px solid rgb(72, 42, 42);
 }
 #submit-button{
-    margin-left: 95px;
+    
     border : 5px solid rgb(72, 42, 42);
 }
 .nav
@@ -125,6 +129,7 @@ h1
 .container 
 {
     display: flex;
+    justify-content: space-between;
     gap : 100px;
 
 }
@@ -138,3 +143,30 @@ h1
     width:250px;
     border: 5px solid black;
 }
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+@media (max-width: 600px) {
+    .container{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap : 50px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .heading{
+        display: flex;
+        align-items: center;
+    }
+    #myCarousel{
+        display: none;
+    }
+    .text{
+        font-size: 1rem;
+    }
+  }
