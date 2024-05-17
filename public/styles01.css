@@ -13,8 +13,11 @@ span{
 
 body{
     background-image: url("./images/background.jpg");
-    background-size: 1500px;
-    background-color: pink;
+    
+    background-position: top  right ;
+    background-size: contain;
+    background-repeat: no-repeat; /* To avoid tiling */
+    background-color: #fde8f1;
 }
 
 h1{
@@ -149,7 +152,28 @@ h1{
     align-items: center;
     margin-bottom: 10rem;
 }
-
+.hidden{
+    display: none;
+}
+@media (max-width: 1300px){
+    #myCarousel{
+        display: none;
+    }
+    .nimg{
+        display:block;
+        width: 80%;   
+        height: auto; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+    .butt{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+}
 @media (max-width: 600px) {
     .container{
         justify-content: center;
@@ -163,10 +187,9 @@ h1{
         display: flex;
         align-items: center;
     }
-    #myCarousel{
-        display: none;
-    }
+    
     .text{
         font-size: 1rem;
     }
   }
+  
