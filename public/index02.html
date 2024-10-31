@@ -66,13 +66,12 @@
   <!--buttons-->
   <div class="center-container">
     <div class="form-container">
-      <form>
-        <input type="file" accept=".png .jpg .dicom" id="image-file" required>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" id="image-file" name="file" required>
         <label id="image-label" class="btn btn-outline-secondary" for="image-file">Upload Image</label>
         <div id="file-status">No File Selected</div>
-      </form>
+    </form>
     </div>
-
     <div class="button-container">
       <button type="submit" id="submit-button" class="btn btn-primary">Generate Predictions</button>
       <div id="loading-message" class="hidden">

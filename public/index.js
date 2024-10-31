@@ -1,3 +1,4 @@
+
 $("#submit-button").on("mouseover",function(){
     $("#submit-button").css("backgroundColor","gray");
 });
@@ -45,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     submit.addEventListener("click", async function () {
+        event.preventDefault();
         if (inputFile.files.length > 0) {
             const formData = new FormData();
             formData.append("file", inputFile.files[0]); 
@@ -53,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 predictionContainer.classList.add("hidden");
                 loadingMessage.classList.remove("hidden"); // Show loading message
                 
-                const response = await fetch("http://0.0.0.0:8080/images/", { // Use your FastAPI endpoint
+                const response = await fetch("/upload", { // Use your FastAPI endpoint
                     method: "POST",
                     body: formData,
                 });
